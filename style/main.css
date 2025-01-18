@@ -112,3 +112,8 @@ img {
     width: auto\9; /* ie8 */
     min-width: 50vw;
 }
+
+.listgrid{
+    display: flex;
+    flex-direction: row;
+}
