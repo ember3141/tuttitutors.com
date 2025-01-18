@@ -116,4 +116,14 @@ img {
 .listgrid{
     display: flex;
     flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+
+.gridelement{
+    background:red;
+    border-radius: 500px;
+    min-width: 15vw;
+    display:flex;
+    justify-content:center;
 }
