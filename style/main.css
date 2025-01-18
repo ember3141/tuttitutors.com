@@ -9,6 +9,9 @@
     font-style: normal;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 html,
 body {
     margin: 0;
@@ -70,6 +73,20 @@ body {
     margin-right: auto;
 }
 
+.parallax {
+    /* The image used */
+    background-image: url('landingimage.jpg');
+    /* filter: brightness(30%); */
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 .item {}
 
 .section {
@@ -129,6 +146,11 @@ h3 {
 h4 {
     font-size: calc(1vw + 1vh + 0.15vmin);
     ;
+}
+
+a{
+    display: block;
+    height: 100%;
 }
 
 img {

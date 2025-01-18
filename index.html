@@ -6,6 +6,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Telex&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style\main.css">
+    <script>
+        function scrollToSection(sectionId) {
+
+            document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+        }
+
+    </script>
 </head>
 
 <body>
@@ -19,36 +27,36 @@
         <div class="button">
             Welcome
         </div>
-        <div class="button">
-            Bio
+        <div class="button" onclick="scrollToSection('section1')">
+            bio
         </div>
-        <div class="button">
+        <div class="button"  onclick="scrollToSection('section2')">
             Team
         </div>
-        <div class="button">
+        <div class="button"  onclick="scrollToSection('section3')">
             Services
         </div>
-        <div class="button">
+        <div class="button"  onclick="scrollToSection('section4')">
             Contact
         </div>
 
     </div>
-    <div class="section" style="background:rgb(223, 215, 203);">
+    <div class="section parallax">
         <div class="group left">
             <div class="item">
-                <h3>Experience the Art of Music</h3>
+                <h3 style="color:white;">Experience the Art of Music</h3>
             </div>
         </div>
         <div class="group right">
             <div class="item">
-                <h1>Discover
+                <h1 style="color:white;">Discover
                     <br>
                     Harmony
                 </h1>
             </div>
         </div>
     </div>
-    <div class="section">
+    <div class="section" id="section1">
         <div class="group left">
             <div class="item" style="max-width: 800px;">
                 <h2 style="margin-bottom: 0;">Our Story</h2>
@@ -72,7 +80,7 @@
                 </h4>
             </div>
         </div>
-        <div class="section">
+        <div class="section" id="section2">
             <div class="group left">
                 <div class="item">
                     <h2>services</h2>
@@ -103,7 +111,7 @@
             </div>
         </div>
 
-        <div class="section">
+        <div class="section" id="section3">
             <div class="group center">
                 <h2>Our Tutors</h2>
             </div>
@@ -128,7 +136,16 @@
                 </div>
             </div>
         </div>
-        <div class="section" >
+        <div class="section" id="section4">
+            <div class="group center">
+                <h2>Contact</h2>
+            </div>
+            <div class="group center">
+                
+                <h3>send an email to email@email.com</h3>
+            </div>
+        </div>
+        <div class="section">
             <div class="footerdiv">
                 <h3>Tutti Tutors</h3>
                 <h3>email</h3>
