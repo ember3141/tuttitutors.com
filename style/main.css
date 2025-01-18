@@ -186,3 +186,12 @@ img {
     align-items: center;
     padding: 0vh 3vw 0vh 3vw;
 }
+
+.blobsvg{position: relative;
+    margin-top:-27vh;
+    margin-left: -55vw;
+}
+
+.stroke{
+    /* -webkit-text-stroke:2px black; */
+}
