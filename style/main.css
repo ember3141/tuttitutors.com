@@ -56,11 +56,17 @@ body{
     margin-right: auto;
 }
 
+.item{
+
+}
+
 .section{
     display:flex;
     flex-direction: column;
-    min-height: 75vh;
+    /* min-height: 65vh; */
     align-items: stretch;
+    flex-grow: 1;
+    height: auto;
     /* justify-items: center; */
 }
 
@@ -90,6 +96,19 @@ body{
 h1{
     font-size:calc(4vw + 4vh + 2vmin);
 }
+h2{
+    font-size: calc(3vw + 3vh + 1.25vmin);;
+}
 h3{
     font-size: calc(2vw + 2vh + 0.5vmin);;
+}
+h4{
+    font-size: calc(1vw + 1vh + 0.15vmin);;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    min-width: 50vw;
 }
